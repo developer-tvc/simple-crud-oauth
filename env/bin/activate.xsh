@@ -28,7 +28,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"/home/shilpa/Public/my-work/code/simple-crud/env"
+$VIRTUAL_ENV = r"/home/shilpa/Public/my-work/code/simple-crud-oauth/env"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]

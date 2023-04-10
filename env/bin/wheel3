@@ -1,4 +1,4 @@
-#!/home/shilpa/Public/my-work/code/simple-crud/env/bin/python
+#!/home/shilpa/Public/my-work/code/simple-crud-oauth/env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

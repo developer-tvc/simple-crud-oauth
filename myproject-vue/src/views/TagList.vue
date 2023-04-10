@@ -207,7 +207,8 @@ export default {
           });
         },
         searchValue(){
-          this.isLoading = true;
+          if(this.search){
+              this.isLoading = true;
           this.param=1;
           this.sortParam = `${this.param}&search=${this.search}`
           this.tagListAction(this.sortParam).then((response) => {
@@ -218,6 +219,8 @@ export default {
               this.isLoading = false;
             }
           });
+          }
+          
         },
         tagDelete(tagId){
           try{
